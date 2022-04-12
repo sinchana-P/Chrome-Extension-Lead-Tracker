@@ -29,7 +29,7 @@ tabBtn.addEventListener("click",function(){
       // since only one tab should be active and in the current window at once
       // the return variable should only have one entry
       myLeads.push(tabs[0].url)
-      localStorage.setItem("myLeads", JSON.stringify(myLeads)); //("key",value) // 1.SET...   // 2) convert given i/p value to array into string ;
+      localStorage.setItem("myLeads", JSON.stringify(myLeads)); //("key",value)    // 1.SET...   // 2) convert given i/p value to array into string ;
       render(myLeads);   
    })
 
